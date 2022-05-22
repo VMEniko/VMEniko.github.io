@@ -1,0 +1,34 @@
+html
+    {
+        background-color: goldenrod;
+    }
+
+img
+    {
+        width: 30%;
+        height: 30%;
+        border-radius: 20px;
+    }
+h1
+    {
+        text-align: center;
+        text-transform: uppercase;
+        color: brown;
+        font-family: cursive;    
+    }
+
+p
+    {
+        text-transform: uppercase;
+        text-align: right;
+        text-shadow: 20px;
+        color: maroon;
+        font-family: monospace;
+    }
+
+ol
+    {
+        text-transform: uppercase;
+        color: brown;
+        font-family: cursive;   
+    }

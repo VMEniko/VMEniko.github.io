@@ -1,0 +1,66 @@
+html
+    {
+    background-color: goldenrod;
+    }
+
+#header
+    {
+    width: 100%;
+    height: auto;
+    }
+
+#button:hover
+    {
+    box-shadow: 2px 2px 3px brown;
+    }
+
+.selector 
+    {
+        padding: 15px;
+        border: solid 1px brown;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+.login
+    {
+        padding: 15px;
+        border: solid 1px brown;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+.login input
+    {
+        display: block;
+        margin-bottom: 7px;
+    }
+.login input:focus
+    {
+        box-shadow: 2px 2px 3px brown;
+        border: none;
+    }
+
+h1
+    {
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    font-family: cursive;    
+    }
+
+ul
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        text-transform: uppercase;
+        color: darkgoldenrod;
+        font-family: fantasy;
+        font-size: x-large;
+    }
+ul li:last child
+    {
+        text-decoration: line-through;
+    }

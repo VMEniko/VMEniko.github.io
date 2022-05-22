@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>CHINCHILLADAS</title>
+</head>
+<body>
+    <img id="header" src="img/chinchilladas01.jpg" alt="chinchilladas">
+    
+    <a href="pages/burito.html"><img src="img/burito1.jpg" alt="burito"></a>
+        <form >
+            <fieldset class="login">
+                <legend>personal info</legend>
+            <div>
+                <label for="name">name</label>
+                <input type="name" name="name">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label for="comment">megjegyzés</label>
+                <input type="text" name="comment">
+            </div>
+            </fieldset>
+        <fieldset class="selector">
+            <legend>options</legend>
+        <div>
+            <span>Extras</span>
+            <div>
+                <input checked id="nothing" name="xtra" type="radio" value="0">
+                <label for="nothing" >no thanks</label>
+            </div>
+            <div>
+                <input checked id="xtrsass" name="xtra" type="radio" value="300">
+                <label for="nothing" >extra sass</label>
+            </div>
+            <div>
+                <input checked id="xtrfluff" name="xtra" type="radio" value="600">
+                <label for="nothing" >extra fluff</label>
+            </div>
+            <div>
+                <label for="color" >color</label>
+                    <select name="color" id="color">
+                    <option value="0" selected>standard</option>
+                    <option value="100">void</option>
+                    </select>
+            </div>
+            <div>
+                <label for="quantity">quantity</label>
+                <input type="number" name="quantity" id="quantity" min="2" max="10">
+            </div>
+        </fieldset>
+            <div id="button">
+            <button>save</button>
+            </div>
+        </div>
+        </form>
+
+        <h1>
+            Welcome!
+        </h1>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="pages/about.html">ABOUT</a></li>
+                <li><a href="pages/menu.html">MENU</a></li>
+            </ul>
+        <p>
+            <a href="pages/needs.html">what chinchillas need</a>
+        </p>
+    
+</body>
+</html>
