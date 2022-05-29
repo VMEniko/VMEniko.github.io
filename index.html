@@ -28,9 +28,9 @@
             </div>
             </fieldset>
         <fieldset class="selector">
-            <legend>options</legend>
+            <legend>Life calc</legend>
         <div>
-            <span>Extras</span>
+            <span>what will it take?</span>
             <div>
                 <input checked id="nothing" name="xtra" type="radio" value="0">
                 <label for="nothing" >no thanks</label>
@@ -48,16 +48,27 @@
                     <select name="color" id="color">
                     <option value="0" selected>standard</option>
                     <option value="100">void</option>
+                    <option value="200">white</option>
+                    <option value="200">beige</option>
+                    <option value="200">mixed</option>
                     </select>
             </div>
             <div>
                 <label for="quantity">quantity</label>
                 <input type="number" name="quantity" id="quantity" min="2" max="10">
+                    <small class="form text text muted">
+                            min 2, max 10 pcs
+                    </small>
             </div>
+            <div>
+              Years of your life:  <span class="show-amount">
+                    0
+                </span> yrs
+            </div>
+            <button id="button" type="button" onclick="calcQuantity()">
+                SHOW
+            </button>
         </fieldset>
-            <div id="button">
-            <button>save</button>
-            </div>
         </div>
         </form>
 
@@ -73,6 +84,6 @@
         <p>
             <a href="pages/needs.html">what chinchillas need</a>
         </p>
-    
+        <script src="js/main.js"></script>
 </body>
 </html>
