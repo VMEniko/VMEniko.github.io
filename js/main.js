@@ -35,3 +35,7 @@ function checkValidation() {
   }
 }
 
+Element.prototype.setUrgent = function () {
+  this.style.border = "solid 2px red";
+}
+
