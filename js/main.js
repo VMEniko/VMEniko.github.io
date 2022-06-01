@@ -27,3 +27,11 @@ function showSumPrice (price, amountNumber) {
         showAmount.innerHTML = amount;
           }              
 }
+
+function checkValidation() {
+  const inpObj = document.getElementById("quantity");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("selector").innerHTML = inpObj.validationMessage;
+  }
+}
+

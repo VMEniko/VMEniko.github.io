@@ -11,65 +11,68 @@
     <img id="header" src="img/chinchilladas01.jpg" alt="chinchilladas">
     
     <a href="pages/burito.html"><img src="img/burito1.jpg" alt="burito"></a>
-        <form >
+       
+    <form >
             <fieldset class="login">
                 <legend>personal info</legend>
-            <div>
-                <label for="name">name</label>
-                <input type="name" name="name">
-            </div>
-            <div>
-                <label for="email">email</label>
-                <input type="email" name="email">
-            </div>
-            <div>
-                <label for="comment">megjegyzés</label>
-                <input type="text" name="comment">
-            </div>
+                <div>
+                        <label for="name">name</label>
+                        <input type="name" name="name">
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <label for="comment">megjegyzés</label>
+                    <input type="text" name="comment">
+                </div>
             </fieldset>
-        <fieldset class="selector">
-            <legend>Life calc</legend>
-        <div>
-            <span>what will it take?</span>
+        
+            <fieldset id="selector" class="selector">
+                <legend>Life calc</legend>
             <div>
-                <input checked id="nothing" name="xtra" type="radio" value="0">
-                <label for="nothing" >no thanks</label>
-            </div>
-            <div>
-                <input checked id="xtrsass" name="xtra" type="radio" value="300">
-                <label for="nothing" >extra sass</label>
-            </div>
-            <div>
-                <input checked id="xtrfluff" name="xtra" type="radio" value="600">
-                <label for="nothing" >extra fluff</label>
-            </div>
-            <div>
-                <label for="color" >color</label>
-                    <select name="color" id="color">
-                    <option value="0" selected>standard</option>
-                    <option value="100">void</option>
-                    <option value="200">white</option>
-                    <option value="200">beige</option>
-                    <option value="200">mixed</option>
-                    </select>
-            </div>
-            <div>
-                <label for="quantity">quantity</label>
-                <input type="number" name="quantity" id="quantity" min="2" max="10">
-                    <small class="form text text muted">
+                <span>what will it take?</span>
+                <div>
+                    <input checked id="nothing" name="xtra" type="radio" value="0">
+                    <label for="nothing" >no thanks</label>
+                </div>
+                <div>
+                    <input checked id="xtrsass" name="xtra" type="radio" value="300">
+                    <label for="nothing" >extra sass</label>
+                </div>
+                <div>
+                    <input checked id="xtrfluff" name="xtra" type="radio" value="600">
+                    <label for="nothing" >extra fluff</label>
+                </div>
+                <div>
+                        <label for="color" >color</label>
+                        <select name="color" id="color">
+                            <option value="0" selected>standard</option>
+                            <option value="100">void</option>
+                            <option value="200">white</option>
+                            <option value="200">beige</option>
+                            <option value="200">mixed</option>
+                        </select>
+                </div>
+                <div>
+                    <label for="quantity">quantity</label>
+                    <input type="number" name="quantity" id="quantity" min="2" max="10">
+                        <small class="form text text muted">
                             min 2, max 10 pcs
-                    </small>
-            </div>
-            <div>
-              Years of your life:  <span class="show-amount">
-                    0
-                </span> yrs
-            </div>
-            <button id="button" type="button" onclick="calcQuantity()">
+                        </small>
+                </div>
+                <div>
+                Years of your life:  
+                    <span class="show-amount">
+                        0
+                    </span> yrs
+                </div>
+                <button id="button" type="button" onclick="calcQuantity()">
                 SHOW
-            </button>
-        </fieldset>
-        </div>
+                </button>
+                </div>
+            </fieldset>
         </form>
 
         <h1>
