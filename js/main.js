@@ -1,3 +1,5 @@
+
+
 function calcQuantity()
 {
     let price = 20;
@@ -28,7 +30,7 @@ function showSumPrice (price, amountNumber) {
           }              
 }
 
-function checkValidation() {
+/*function checkValidation() {
   const inpObj = document.getElementById("quantity");
   if (!inpObj.checkValidity()) {
     document.getElementById("selector").innerHTML = inpObj.validationMessage;
@@ -38,4 +40,5 @@ function checkValidation() {
 Element.prototype.setUrgent = function () {
   this.style.border = "solid 2px red";
 }
+*/
 
