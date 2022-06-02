@@ -1,6 +1,6 @@
 function goBack() {
     window.history.back()
-  }
+  };
 
 let agree = document.getElementById("agr")
     agree.addEventListener("!IsChecked", function(){
@@ -17,4 +17,4 @@ function sacrifice(){
       else { 
         goBack();
       }
-    }
+    };
