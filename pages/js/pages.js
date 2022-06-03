@@ -9,9 +9,9 @@ let agree = document.getElementById("agr")
 
 function sacrifice(){
   
-  let checkbox = document.getElementById("agr") 
+  let checkBox = document.getElementById("agr") 
 
-      if (!checkbox.checked){
+      if (!checkBox.checked){
         alert("Y'ALL GONNA DO YOUR SACRIFICES");
       }
       else { 
